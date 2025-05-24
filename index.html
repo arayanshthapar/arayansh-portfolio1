@@ -3,108 +3,135 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Arayansh Thapar | Official Artist Portfolio</title>
-  <meta name="description" content="Arayansh Thapar – Singer, Songwriter, Guitarist. Listen, watch, and book Arayansh's latest shows, music, and more.">
-  <meta name="keywords" content="Arayansh Thapar, Music, Artist, Singer, Guitarist, Indie, Portfolio, Live, Canada, India">
-  <meta name="author" content="Arayansh Thapar">
+  <title>Arayansh Thapar | Music Portfolio</title>
+  <meta name="description" content="Official portfolio of Arayansh Thapar – singer, songwriter, guitarist. Listen, watch, and book Arayansh's latest shows, music, and more.">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Navigation Bar -->
+  <!-- Floating Navbar -->
   <nav>
-    <ul>
-      <li><a href="#listen">Listen</a></li>
-      <li><a href="#videos">Videos</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+    <div class="nav-container">
+      <span class="nav-logo">ARAYANSH</span>
+      <ul>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#shows">Shows</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
   </nav>
 
-  <!-- Hero Section -->
-  <header class="hero" id="home">
-    <img src="assets/images/hero.jpg" alt="Arayansh Thapar Live Performance" class="hero-img">
-    <div class="hero-content">
-      <h1>Arayansh Thapar</h1>
-      <p>Singer, Songwriter, Guitarist</p>
-      <div class="socials">
-        <a href="https://instagram.com/arayanshthapar" target="_blank" class="icon ig" title="Instagram"></a>
-        <a href="https://youtube.com/channel/UCC8Lb9XWDjMAqAMjZTT24zw?si=6saM5myvQQ3-be2A" target="_blank" class="icon yt" title="YouTube"></a>
-        <a href="https://open.spotify.com/artist/6up0nFwj6qALEyB1kYyLhC?si=tsOn99TASzWGMS_9sWc_ZA" target="_blank" class="icon spotify" title="Spotify"></a>
-        <a href="https://music.apple.com/ca/album/emotions-ep/1767099973" target="_blank" class="icon apple" title="Apple Music"></a>
-        <a href="https://linktr.ee/arayanshthaparr" target="_blank" class="icon linktree" title="Linktree"></a>
-      </div>
-    </div>
-  </header>
+  <!-- Full-width Hero Image -->
+  <section class="hero" id="home">
+    <img src="assets/images/hero.jpg" alt="Arayansh Thapar hero image" class="hero-img">
+  </section>
 
-  <!-- Listen/Streaming Section -->
-  <section class="listen" id="listen">
-    <h2>Listen Now</h2>
-    <div class="listen-links">
-      <a href="https://open.spotify.com/artist/6up0nFwj6qALEyB1kYyLhC?si=tsOn99TASzWGMS_9sWc_ZA" target="_blank" class="btn listen-btn spotify">Spotify Artist</a>
-      <a href="https://open.spotify.com/album/1UKCLmaRWvnWX44UfkfrRl?si=tbXVPknYSAmqrlahDotRuA" target="_blank" class="btn listen-btn spotify">Spotify EP</a>
-      <a href="https://music.apple.com/ca/album/emotions-ep/1767099973" target="_blank" class="btn listen-btn apple">Apple Music EP</a>
-      <a href="https://youtube.com/channel/UCC8Lb9XWDjMAqAMjZTT24zw?si=6saM5myvQQ3-be2A" target="_blank" class="btn listen-btn yt">YouTube Channel</a>
-      <a href="https://linktr.ee/arayanshthaparr" target="_blank" class="btn listen-btn lt">All Links</a>
-    </div>
-    <div class="player-wrap">
-      <!-- Spotify EP Embed -->
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1UKCLmaRWvnWX44UfkfrRl?utm_source=generator" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  <!-- Music Section -->
+  <section class="music" id="music">
+    <div class="container">
+      <h2>Music</h2>
+      <div class="music-cards">
+        <div class="music-main">
+          <h3>Emotions EP <span class="tag">NEW</span></h3>
+          <div class="stream-links">
+            <a href="https://open.spotify.com/album/1UKCLmaRWvnWX44UfkfrRl" target="_blank">Spotify</a>
+            <a href="https://music.apple.com/ca/album/emotions-ep/1767099973" target="_blank">Apple Music</a>
+            <a href="https://youtube.com/channel/UCC8Lb9XWDjMAqAMjZTT24zw" target="_blank">YouTube</a>
+            <a href="https://linktr.ee/arayanshthaparr" target="_blank">All Links</a>
+          </div>
+          <div class="music-player">
+            <iframe src="https://open.spotify.com/embed/album/1UKCLmaRWvnWX44UfkfrRl" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" title="Spotify Player"></iframe>
+          </div>
+        </div>
+        <div class="music-video">
+          <iframe src="https://www.youtube.com/embed/ONEjwAJgU7I" title="Live Performance" frameborder="0" allowfullscreen></iframe>
+          <div class="video-caption">Watch Live</div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Videos Section -->
-  <section class="videos" id="videos">
-    <h2>Videos</h2>
-    <div class="video-grid">
-      <div class="video-item">
-        <iframe width="400" height="225" src="https://www.youtube.com/embed/ONEjwAJgU7I" title="YouTube Video 1" frameborder="0" allowfullscreen></iframe>
-        <p>Live Performance</p>
-      </div>
-      <div class="video-item">
-        <iframe width="400" height="225" src="https://www.youtube.com/embed/wRgU6TOE5bk" title="Intro Album" frameborder="0" allowfullscreen></iframe>
-        <p>Intro Album</p>
+  <!-- Shows Section -->
+  <section class="shows" id="shows">
+    <div class="container">
+      <h2>Live Shows</h2>
+      <div class="shows-list">
+        <div class="show-card">
+          <div>
+            <span class="show-date">June 19, 2024</span>
+            <span class="show-venue">Tapestry, Toronto</span>
+          </div>
+          <a href="https://www.eventbrite.ca/e/the-warehouse-sessions-tickets-1376852094679" target="_blank" class="show-btn">Tickets</a>
+        </div>
+        <div class="show-card">
+          <div>
+            <span class="show-date">Spring 2025</span>
+            <span class="show-venue">Jamboree (TBA)</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Gallery Section -->
   <section class="gallery" id="gallery">
-    <h2>Gallery</h2>
-    <div class="gallery-grid">
-      <img src="assets/images/hero.jpg" alt="Arayansh Live Hero Performance"/>
-      <img src="assets/images/gallery1.jpg" alt="Band Performance"/>
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="assets/images/hero.jpg" alt="Live in Toronto">
+        <img src="assets/images/gallery1.jpg" alt="Band Session">
+      </div>
     </div>
   </section>
 
   <!-- About Section -->
   <section class="about" id="about">
-    <h2>About</h2>
-    <p>
-      Arayansh Thapar is an independent artist, singer, and guitarist. 
-      With performances across India and Canada, including acoustic open mics, full band shows, and music festivals, Arayansh brings raw energy and soulful songwriting to every stage.<br>
-      His recent EP "Emotions" is available on all major streaming platforms.
-    </p>
+    <div class="container">
+      <h2>About</h2>
+      <div class="about-content">
+        <div class="about-main">
+          <p>
+            <b>Arayansh Thapar</b> is an indie singer-songwriter and guitarist blending modern soul with classic blues and Indian roots. From <b>The Last Leaf</b> and <b>The Trio</b> to his latest project <b>Arayansh & The Phoenixes</b>, Arayansh’s music explores emotion and storytelling, now streaming everywhere.
+          </p>
+        </div>
+        <div class="about-extra">
+          <h4>Bands & Collaborations</h4>
+          <ul>
+            <li>The Last Leaf (India, Battle of the Bands)</li>
+            <li>The Trio (Donny Berry & Shobhit Chaudhary)</li>
+            <li>Arayansh & The Phoenixes</li>
+            <li>JamNetwork</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Contact Section -->
   <section class="contact" id="contact">
-    <h2>Contact / Booking</h2>
-    <p>For bookings, collaborations, and press, email: <a href="mailto:arayanshthapar5678@gmail.com">arayanshthapar5678@gmail.com</a></p>
-    <p>Or DM on <a href="https://instagram.com/arayanshthapar" target="_blank">Instagram</a>.</p>
+    <div class="container">
+      <h2>Contact & Booking</h2>
+      <div class="contact-grid">
+        <div class="contact-main">
+          <p>Email: <a href="mailto:arayanshthapar5678@gmail.com">arayanshthapar5678@gmail.com</a></p>
+          <p>Instagram: <a href="https://instagram.com/arayanshthapar" target="_blank">@arayanshthapar</a></p>
+        </div>
+        <div class="contact-socials">
+          <a href="https://open.spotify.com/artist/6up0nFwj6qALEyB1kYyLhC" target="_blank">Spotify</a>
+          <a href="https://music.apple.com/ca/album/emotions-ep/1767099973" target="_blank">Apple Music</a>
+          <a href="https://youtube.com/channel/UCC8Lb9XWDjMAqAMjZTT24zw" target="_blank">YouTube</a>
+          <a href="https://linktr.ee/arayanshthaparr" target="_blank">Linktree</a>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- Footer -->
   <footer>
-    <div class="footer-socials">
-      <a href="https://instagram.com/arayanshthapar" target="_blank" class="icon ig"></a>
-      <a href="https://youtube.com/channel/UCC8Lb9XWDjMAqAMjZTT24zw?si=6saM5myvQQ3-be2A" target="_blank" class="icon yt"></a>
-      <a href="https://linktr.ee/arayanshthaparr" target="_blank" class="icon linktree"></a>
-      <a href="https://open.spotify.com/artist/6up0nFwj6qALEyB1kYyLhC?si=tsOn99TASzWGMS_9sWc_ZA" target="_blank" class="icon spotify"></a>
-      <a href="https://music.apple.com/ca/album/emotions-ep/1767099973" target="_blank" class="icon apple"></a>
+    <div class="container">
+      <span>&copy; 2024 Arayansh Thapar</span>
     </div>
-    <p>&copy; 2024 Arayansh Thapar. All rights reserved.</p>
   </footer>
 </body>
 </html>
-
